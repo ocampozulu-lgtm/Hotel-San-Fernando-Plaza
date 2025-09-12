@@ -6,7 +6,7 @@ display: flex;
 justify-content: left;
 margin: 10px;
 padding: 15px;
-gap: 10px;
+gap: 30px;
 font-size: 23px;
 
 
@@ -39,7 +39,7 @@ background: linear-gradient(90deg, rgba(97, 237, 242, 0.548) 11%, rgba(255, 255,
     width: 800px;
 }
 footer.footer {
-    background-color: #1a1a1a; /* fondo oscuro */
+    background-color: #000000; /* fondo oscuro */
     color: white;
     padding: 40px 20px;
     display: flex;
@@ -95,4 +95,15 @@ body {
 
 main {
     flex: 1; /* Empuja el footer al fondo */
+}
+.carrousel{
+    width: 1400px;
+    height: 800px;
+}
+.navbar a{
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.footer-social a{
+    text-decoration: none;
 }
